@@ -1,0 +1,2 @@
+# linux-dumb
+all information
