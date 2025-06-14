@@ -1,0 +1,1038 @@
+ajiv97@msapp:~$ sudo cat /root/.bash_history
+[sudo] password for rajiv97: 
+exit
+clear
+vim /etc/ssh/sshd_config
+clear
+vim /etc/ssh/sshd_config
+clear
+systemctl restart sshd
+clear
+cd /usr/share/doc
+ls
+clear
+cd netplan
+ls
+cd examples/
+ls
+cp -av static.yaml /etc/netplan/00-installer-config.yaml 
+clear
+cd /etc/netplan/
+clear
+vim 00-installer-config.yaml 
+clear
+ip a
+clear
+vim 00-installer-config.yaml 
+clear
+vim 00-installer-config.yaml 
+clear
+netplan apply 
+clear
+ls
+clear
+ls
+clear
+export http_proxy=http://192.168.0.124:3128
+export https_proxy=http://192.168.0.124:3128
+apt-get update
+# apt-get install net-tools vim wget curl tcpdump plocate  unzip -y
+apt-get install vim net-tools mlocate apt-file python3-apt unzip pigz qemu-guest-agent
+apt-get dist-upgrade
+init 6
+vim /etc/bash.bashrc
+source /etc/bash.bashrc
+vim /etc/hostname 
+vim /etc/hosts
+clear
+timedatectl set-timezone "Asia/Kolkata"
+apt-get install chrony -y
+systemctl disable apparmor.service --now
+systemctl status apparmor.service 
+clear
+systemctl stop apparmor.service 
+systemctl disable apparmor.service 
+systemctl status apparmor.service 
+clear
+systemctl mask apparmor.service 
+clear
+ls
+mkfir files
+mkdir files
+cd files/
+clear
+ls
+wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.93/bin/apache-tomcat-9.0.93.tar.gz
+export http_proxy=http://192.168.0.124:3128
+export https_proxy=http://192.168.0.124:3128
+wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.93/bin/apache-tomcat-9.0.93.tar.gz
+wget wget https://corretto.aws/downloads/latest/amazon-corretto-17-x64-linux-jdk.tar.gz
+wget https://corretto.aws/downloads/latest/amazon-corretto-17-x64-linux-jdk.tar.gz
+df -hT
+vgs
+lvresize -r -l 100%FREE  /dev/ubuntu-vg/ubuntu-lv
+vgs
+df -hT
+lvresize -r -l +100%FREE  /dev/ubuntu-vg/ubuntu-lv
+df -hT
+nestat -ant
+netstat -ant
+clear
+apt-get install net-tools vim wget curl tcpdump plocate -y
+wget https://corretto.aws/downloads/latest/amazon-corretto-17-x64-linux-jdk.tar.gz
+clear
+cd files/
+clear
+ls
+tar xzvf amazon-corretto-17-x64-linux-jdk.tar.gz
+mv amazon-corretto-17.0.10.7.1-linux-x64 /opt/jdk17
+clear
+ls
+mv amazon-corretto-17.0.12.7.1-linux-x64 /opt/jdk17
+cc
+c
+cd /opt/
+ls
+cd ~
+clear
+ls
+clear
+ls
+cd files/
+ls
+tar xzvf apache-tomcat-9.0.93.tar.gz 
+ls
+mv apache-tomcat-9.0.93 /opt/tomcat
+wget https://downloads.apache.org/tomcat/tomcat-10/v10.1.28/bin/apache-tomcat-10.1.28.tar.gz.asc
+export https_proxy=http://192.168.0.189:3128
+export http_proxy=http://192.168.0.189:80:3128
+wget https://downloads.apache.org/tomcat/tomcat-10/v10.1.28/bin/apache-tomcat-10.1.28.tar.gz.asc
+export https_proxy=http://192.168.0.189:3128
+export http_proxy=http://192.168.0.189:80:3128
+wget https://downloads.apache.org/tomcat/tomcat-10/v10.1.28/bin/apache-tomcat-10.1.28.tar.gz.asc
+export https_proxy=http://192.168.0.124:3128
+export http_proxy=http://192.168.0.124:3128
+wget https://downloads.apache.org/tomcat/tomcat-10/v10.1.28/bin/apache-tomcat-10.1.28.tar.gz.asc
+c
+ls
+ls -lhtr
+rm -r apache-tomcat-10.1.28.tar.gz.asc apache-tomcat-9.0.93.tar.gz.1 amazon-corretto-17-x64-linux-jdk.tar.gz.1 
+clear
+ls
+wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.28/bin/apache-tomcat-10.1.28.tar.gz
+tar xzvf apache-tomcat-10.1.28.tar.gz 
+mv apache-tomcat-10.1.28 /opt/tomcat10
+clear
+ls
+wget https://launchpad.net/~uroni/+archive/ubuntu/urbackup/+files/urbackup-server_2.5.33.0-1ubuntu1~jammy_amd64.deb
+clear
+ls
+clear
+cd ~
+clear
+ls
+cd /opt/
+ls
+clear
+apt-cache search java | grep jdk
+systemctl status qemu-guest-agent.service 
+systemctl enable chrony --now
+systemctl restart chrony
+chronyc sources
+chronyc tracking 
+timedatectl
+apt-get install bash-completion
+apt-get install cifs-utils samba samba-common -y
+cd /etc/samba/
+mv smb.conf smb.conf_orig
+systemctl enable smbd --now
+systemctl enable nmbd --now
+systemctl restart smbd.service nmbd.service
+systemctl stop ufw
+systemctl disable ufw
+apt-get install samba -y
+vim /etc/logrotate.d/tomcat
+useradd -s /bin/bash jilaba
+groupadd smbgrp
+useradd -s /sbin/nologin -G smbgrp tomcat
+chown tomcat:smbgrp /opt/tomcat10 -R
+chown tomcat:smbgrp /opt/tomcat -R
+(echo Jilaba@321; echo Jilaba@321) | smbpasswd -a jilaba
+(echo itteam; echo itteam) | smbpasswd -a ituser
+useradd -s /sbin/nologin ituser
+(echo itteam; echo itteam) | smbpasswd -a ituser
+cat /etc/passwd | grep ituser
+userdel -r ituser 
+useradd -s /bin/false ituser
+cat /etc/passwd | grep ituser
+(echo itteam; echo itteam) | smbpasswd -a ituser
+useradd -s /bin/bash ftpuser
+clear
+ls
+clear
+ls
+cat /etc/group | grep jilaba
+cat /etc/passwd | grep jilaba
+usermod -s /bin/sh jilaba
+cat /etc/passwd | grep jilaba
+clear
+ls
+cd ~
+lc
+clear
+ls
+clear
+ls
+cat /etc/group | grep smbgrp
+clear
+ls
+cd ~
+clear
+cd /home/
+ls
+init 6
+cd "/opt"
+history 
+export http_proxy=http://192.168.0.124:3128
+export https_proxy=http://192.168.0.124:3128
+apt-get instal wget vim net-tools yum_utils tcpdump nc curl unzip bind-utils
+apt-get install wget vim net-tools yum_utils tcpdump nc curl unzip bind-utils
+apt-get install wget vim net-tools tcpdump nc curl unzip bind-util
+apt-get instal wget vim net-tools yum_utils tcpdump  curl unzip
+apt-get install wget vim net-tools yum_utils tcpdump  curl unzip
+apt-get install wget vim net-tools tcpdump  curl unzip
+apt-get install vim net-tools mlocate apt-file python3-apt unzip pigz qemu-guest-agent
+apt-get install openjdk-8-jdk -y
+apt-get install cifs-utils
+apt-get install chrony -y
+java -version
+vim /etc/systemd/system/tomcat.service 
+clear
+vim /etc/systemd/system/tomcat10.service 
+cat /etc/vsftpd/user_list
+cd /home/
+ls
+clear
+ls
+sudo mkdir ftpuser 
+sudo mkdir ituser
+sudo mkdir jilaba
+sudo mkdir tomcat
+usermod -m -d /home/ftpuser ftpuser
+ls -lhtr
+chown ftpuser:ftpuser ftpuser -R
+chown ituser:ituser ituser -R
+chown jilaba:jilaba jilaba -R
+chown tomcat:tomcat tomcat -R
+clear
+ls -lhtr
+cd ..
+ls
+cd /home/
+ls -lhtr
+cd ~
+clear
+ls
+ls -ld /opt/
+chown tomcat:smbgrp /opt -R
+chmod 775 /opt/ -R
+clear
+ls
+cd /opt/
+ls -lhtr
+clear
+ls
+cd ~
+clear
+ls
+passwd ftpuser 
+apt-get install vsftpd
+export http_proxy=http://192.168.0.124:3128
+export https_proxy=http://192.168.0.124:3128
+apt-get install vsftpd
+systemctl enable vsftpd --now
+systemctl start vsftpd
+systemctl status vsftpd.service 
+mkdir -p /home/ftpuser/
+chmod -R 775 /home/ftpuser
+chown ftpuser:ftpuser /home/ftpuser/
+cat /etc/vsftpd/user_list
+clear
+bash -c 'echo ftpuser >> /etc/vsftpd/user_list'
+vim /etc/vsftpd/user_list
+cd /etc/
+mkdir vsftpd
+cd v
+cd vsftpd/
+touch user_list
+cd ~
+bash -c 'echo ftpuser >> /etc/vsftpd/user_list'
+cat /etc/vsftpd/user_list
+cd /etc/vsftpd/
+ls
+vim vsftpd.conf
+clear
+ls
+mv vsftpd.conf /etc/
+clear
+vim /etc/vsftpd.conf 
+clear
+ls
+clear
+systemctl enable vsftpd --now
+systemctl start vsftpd 
+systemctl status vsftpd.service 
+clear
+ls
+clear
+ls
+cd ~
+chown ftpuser:ftpuser /home/ftpuser/ -R
+chmod 775 /home/ftpuser/ -R
+chmod 777 /home/ftpuser/ -R
+vim /etc/vsftpd.conf 
+systemctl restart vsftpd.service 
+cd /home/ftpuser/
+ls -lhtr
+clear
+cd /opt/
+cd tomcat
+ls
+cd conf/
+ls
+vim tomcat-users.xml 
+cp -av tomcat-users.xml tomcat-users.xml_orig
+vim tomcat-users.xml
+clear
+ls
+cd ..
+ls
+cd conf/
+ls
+cd ..
+ls
+cd webapps/
+ls
+mv docs examples manager /root/files/
+ls
+clear
+ls
+cd host-manager/
+ls
+cd META-INF/
+ls
+vim context.xml 
+clear
+ls
+cd ..
+ls
+cd META-INF/
+ls
+cd ..
+ls
+cd ..
+ls
+cd host-manager/
+ls
+cd WEB-INF/
+ls
+vim web.xml 
+lds
+clear
+ls
+vim web.xml 
+clear
+ls
+cd ..
+ls
+cd META-INF/
+ls
+clear
+ls
+cd ..
+ls
+cd ..
+ls
+cd ROOT/
+ls
+cat RELEASE-NOTES.txt 
+clear
+ls
+cd ..
+ls
+cd ..
+ls
+cd conf/
+ls
+cat tomcat-users.xml
+vim server.xml 
+clear
+ls
+vim web.xml 
+clear
+ls
+cd ..
+ls
+cd webapps/
+ls
+cd host-manager/
+ls
+cd META-INF/
+ls
+cd ..
+ls
+cd WEB-INF/
+ls
+vim web.xml 
+clear
+ls
+cd ..
+ls
+clear
+ls
+cd ..
+ls
+mv host-manager /root/files/
+ls
+cp -av /root/files/manager .
+clear
+ls
+cd manager/
+clear
+ls
+cd META-INF/
+ls
+vim context.xml 
+clear
+ls
+cd ..
+ls
+cd META-INF/
+ls
+cd ..
+ls
+cd WEB-INF/
+ls
+vim web.xml 
+clear
+ls
+cd ~
+clear
+ls
+cd /opt/
+ls
+cd tomcat
+ls
+cd lib/
+ls
+clear
+ls
+cd ~
+ls
+cd /opt/
+ls
+cp -av tomcat tomcat_orig
+clear
+ls
+vim tomcat
+clear
+cd tomcat
+ls
+cd lib/
+ls
+cd ~
+;s
+clear
+ls
+cd files/
+ls
+cd Tomcat_Lib-tomcat9-2024-19-8/
+ls
+clear
+ls
+cp -av mysql-connector-java-8.0.* /opt/tomcat/lib/
+clear
+ls
+cd bin/
+ls
+cp -av setenv.sh /opt/tomcat/bin/
+clear
+ls
+clear
+cd ~
+clear
+systemctl enable tomcat --now
+systemctl enable tomcat10 --now
+systemctl status tomcat
+systemctl status tomcat10.service 
+ls -lhtr /opt/
+cd /opt/
+ls
+cd tomcat
+ls
+cd logs/
+ls
+cat catalina.out 
+clear
+ls
+systemctl status start tomcat10.service 
+systemctl restart tomcat
+systemctl status tomcat
+clear
+cd ..
+ls
+cd ..
+ls
+cd tomcat
+ls
+cd ..
+ls
+cd tomcat10/
+ls
+clear
+cd conf/
+ls
+cp -av tomcat-users.xml tomcat-users.xml_orig
+vim tomcat-users.xml
+clear
+ls
+cd ..
+ls
+cd webapps/
+l;s
+clear
+ls
+rm -r docs examples host-manager
+clear
+ls
+cd manager/
+ls
+cd META-INF/
+ls
+vim context.xml 
+cear
+clear
+ls
+cd ..
+ls
+cd WEB-INF/
+ls
+vim web.xml 
+clear
+ls
+cd ..
+ls
+cd ..
+ls
+clear
+ls
+cd ..
+ls
+clear
+systemctl restart tomcat10.service 
+systemctl status tomcat10.service 
+cd logs/
+ls
+cat catalina.out 
+cd ..
+ls
+systemctl stop tomcat10.service 
+clear
+cd ..
+ls
+mv jdk17 /root/files/
+clear
+ls
+ls -lhtr
+systemctl start tomcat10.service 
+systemctl status tomcat
+systemctl status tomcat10.service 
+cd ~
+chown tomcat:smbgrp /opt -R
+systemctl start tomcat10.service 
+clear
+systemctl status tomcat10.service 
+cd /opt/
+ls
+cd tomcat
+cd ..
+ls
+cd tomcat10/
+ls
+cd logs/
+ls
+cat catalina.out 
+cat catalina.out  | grep 'error'
+cd ..
+ls
+cd conf/
+vim server.xml 
+cd ..
+ls
+rm -rf jdk17
+cp -av /root/files/jdk17 .
+clear
+ls
+ls -lhtr
+systemctl start tomcat10
+systemctl status tomcat10.service 
+cd tomcat10/
+ls
+cd conf/
+ls
+vim server.xml 
+clear
+systemctl restart tomcat10.service 
+clear
+systemctl status tomcat10.service 
+cd ..
+ls
+cd ..
+ls
+ls -lhtr
+rm -r New\ folder
+ls
+rm -r New\ folder\ \(2\)/
+clear
+ls
+rm -r tomcat_orig
+clear
+ls
+cd ~
+clear
+ls
+clear
+df -hT
+ls
+cd files/
+ls
+rm -r examples host-manager jdk17 manager docs
+clear
+ls
+du -sh *
+clear
+ls
+cd ~
+clear
+cd /home/ftpuser/upload/
+ls -lhtr
+rm -r New\ folder/
+clear
+cd ~
+clear
+ls
+clear
+ls
+cd /root/
+ls
+cd files/
+ls
+clear
+ls
+apt-get install ./urbackup-server_2.5.33.0-1ubuntu1~jammy_amd64.deb 
+systemctl status urbackupsrv.service 
+clear
+systemctl stop urbackupsrv.service 
+hsi
+history 
+cd "files"
+apt-get install libsasl2-modules mailutils postfix  -y
+apt-get update
+export http_proxy=http://192.168.0.124:3128
+export https_proxy=http://192.168.0.124:3128
+apt-get install libsasl2-modules mailutils postfix  -y
+cd /etc/postfix/
+ls
+mv main.cf main.cf_orig
+vim main.cf
+clear
+vim /etc/postfix/sasl_passwd
+postmap /etc/postfix/sasl_passwd
+systemctl restart postfix
+systemctl enable postfix --now
+mail -s "test mail" proxmox@grtjewels.local
+echo "Test Postfix Gmail" | mail -s "Postfix Gmail" proxmox@grtjewels.local
+cleare
+clear
+ls
+cd ~
+lc
+c
+df -hT
+chown urbackup:urbackup /media/BACKUP/urbackup/ -R
+clear
+ls
+clear
+ls
+clear
+ls
+cd files/
+ls
+wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.0-4+ubuntu22.04_all.deb
+apt update 
+apt-get install zabbix-agent2
+clear
+systemctl status zabbix-agent2.service 
+systemctl stop zabbix-agent2.service 
+systemctl disable zabbix-agent2.service 
+clear
+cd /etc/zabbix/
+ls
+mv zabbix_agent2.conf zabbix_agent2.conf_orig
+vim zabbix_agent2.conf_orig 
+vim zabbix_agent2.conf
+clear
+systemctl stop postfix --now
+systemctl disable postfix 
+clear
+ls
+clear
+cd ~
+clear
+ls
+systemctl status urbackupsrv.service 
+systemctl start urbackupsrv.service 
+systemctl stop urbackupsrv.service 
+systemctl disable urbackupsrv.service 
+clear
+ls
+clear
+cd /etc/logrotate.d/
+c
+ls -lhtr
+vim vsftpd
+clear
+ls -lhtr
+c
+ls -lhtr
+vim audit_cmd
+cat tomcat 
+clear
+ls -lhtr
+cat zabbix-agent2 
+clear
+ls -lhtr
+cat chrony 
+cat urbackupsrv 
+c
+cat urbackupsrv 
+clear
+ls
+cd ..
+l
+cd /etc/cron.d
+clear
+ls -lhtr
+clear
+cd ~
+clear
+ls
+ping 192.168.22.145
+ping 192.168.22.148
+clear
+ls
+ping 192.168.25.148
+ping 192.168.26.148
+ping 192.168.60.148
+ping 192.168.60.138
+ping 192.168.60.38
+vim /etc/hosts
+clear
+ls
+clear
+ls
+clear
+ls
+init 6
+clear
+cd /etc/cron.d
+clear
+ls -lhtr
+vim e2scrub_all 
+clear
+ls
+clear
+ls
+vim clear_tomcat_logs
+ls -lhtr
+vim urbackup_cleanup_schedul
+vim urbackup_cleanup_schedule
+clear
+ls
+vim urbackup_backup_schedule
+clear
+ls
+ls -lhtr
+vim clean_mails_cron
+clear
+ls
+ls -lhtr
+vim retain_2_days_backup_cron
+ls -lhtr
+x
+c
+ls -lhtr
+vim tomcat_restart
+clear
+ls
+clear
+ls
+ls -lhtr
+cd /usr/local/sbin/
+clear
+ls -lhtr
+vim delete_tomcat_pid.sh
+clear
+ls
+ls -lhtr
+chmod 755 delete_tomcat_pid.sh 
+clear
+ls -lhtr
+cat unminimize 
+clear
+ls
+cd ..
+ls
+cd bin/
+ls
+clear
+ls
+ls -lhtr
+clear
+ls
+vim /etc/systemd/system/urbackup-exporter.service
+clear
+ls
+vim clear_tomcat_logs.sh
+clear
+ls
+vim start_backup.py
+cleae
+clear
+ls -lhtr
+vim urbackup_cleanup.sh
+clear
+ls -lhtr
+vim  urbackup-exporter.py
+clear
+ls
+ls -lhtr
+vim clean_mails.sh
+clear
+ls -lhtr
+vim retain_2_days_backup.sh
+clear
+ls -lthr
+chmod 755 *
+ls -lhtr
+chmod 400 clear_tomcat_logs.sh 
+ls -lhtr
+chmod 0+t clear_tomcat_logs.sh 
+chmod o+t clear_tomcat_logs.sh 
+ls -lhtr
+chmod o+rw
+chmod o+rw clear_tomcat_logs.sh 
+ls -lhtr
+clear
+ls -lhtr
+chmod 775 clear_tomcat_logs.sh 
+ls -lhtr
+chmod 405 clear_tomcat_logs.sh 
+ls -lhtr
+chmod 407 clear_tomcat_logs.sh 
+ls -lhtr
+clear
+cd ~
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+cd ~
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+cat dead.letter 
+clear
+ls
+rm -r dead.letter 
+clear
+ls -lhtr
+cd /usr/local/sbin/
+ls
+clear
+ls
+cd ..ls
+ls
+cd /etc/cron.d
+ls
+cd ..
+ls
+clear
+ls
+cd cron.d
+ls
+clear
+ls
+vim /etc/systemd/system/delete_tomcat_pid.service
+systemctl enable delete_tomcat_pid.service --now
+clear
+systemctl status delete_tomcat_pid.service  
+clear
+sudo init 6
+cat /etc/*release
+apt-get dist-upgrade 
+c
+vim /etc/hostname 
+vim /etc/hosts
+cd /opt/
+ll
+netstat -ntlp
+export http_proxy=http://192.168.0.124:3128
+export http_proxy=https://192.168.0.124:3128
+c
+export https_proxy=http://192.168.0.124:3128
+c
+apt-get dist-upgrade 
+apt-get update
+export https_proxy=http://192.168.0.124:3128
+export http_proxy=http://192.168.0.124:3128
+apt-get update
+apt-get dist-upgrade 
+apt-get install sshpass
+apt-get install rsync
+c
+netstat -ntlp
+systemctl disable urbackupsrv --now
+vim /usr/local/bin/start_backup.py
+c
+netstat -ntlp
+systemctl disable urbackupsrv --now
+netstat -ntlp
+systemctl disable urbackupsrv --now
+systemctl stop urbackupsrv.service 
+netstat -ntlp
+cd /opt/p
+cd /opt/
+ll
+cd jdk17/
+ll
+cd ..
+c
+cd /root/
+ll
+cd files/
+c
+ll
+df -hT
+cd /etc/vsftpd/
+
+vim user_list 
+ls
+vim ../vsftpd.conf 
+grep ftpuser /etc/passwd
+c
+netstat -ntlp
+cd /opt/tomcat/lib/
+ll
+cd /etc/postfix/
+ll
+dpkg -l | grep postfix
+dpkg -l | grep sas
+vim main.cf
+cd /opt/tomcat/conf/
+ll
+vim tomcat-users.xml
+cd ../webapps/
+ll
+ip a
+cd -
+vim tomcat-users.xml
+ll
+vim tomcat-users.xml
+cat /etc/passwd
+visudo 
+sudo update-alternatives --config editor
+visudo 
+cd ../logs/
+ll
+cd /opt/tomcat/conf
+c
+ll
+cd /var/log/audit/
+ll
+cat audit_cmd.log 
+cd /etc/logrotate.d/
+vim tomcat 
+locate java.security
+updatedb
+locate java.security
+vim /etc/java-8-openjdk/security/java.security
+cd /etc/java-8-openjdk/security/
+cp -av java.security java.security_orig
+vim java.security
+systemctl restart tomcat
+cd /opt/tomcat/bin/
+ls -lhtr
+clear
+ls
+ls -lhtr
+chmod 775 setenv.sh 
+ls -lhtr
+cd ~
+init 6
+clear
+cat /etc/group | grep tech
+cat /etc/passwd | grep tech
+clear
+cat /etc/passwd | grep tech
+usermod -s /bin/false tech
+cat /etc/passwd | grep tech
+exit
+clear
+ip a
+cd /var//urbackup/
+ls
+cd /opt/
+ls
+cd /etc/systemd/system/
+ls
+cat tomcat.service 
+cat tomcat10.service 
+free -m
+cat tomcat.service 
+cat tomcat10.service 
+cd /opt/tomcat10/webapps/
+ls
+exit
+clear
+cat /etc/systemd/system/tomcat10.service 
+cat /etc/systemd/system/tomcat.service
+vim /etc/netplan/00-installer-config.yaml 
+vim /etc/hosts
+init 6
+cd ~
+systemctl status postfix.service 
+cd /etc/postfix/
+cat main.cf
+cat /etc/postfix/sasl_passwd
+vim /etc/hosts
+exit
+tail /etc/passwd
+c
+visudo 
+chronyc sources
+c
+date
+c
+ll
+ping 192.168.61.218
+c
+history | grep dig

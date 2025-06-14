@@ -1,0 +1,38 @@
+1)# rajiv97@JRMSPRODDB3 ~]$ mysqlsh
+
+2)# MySQL  JS > shell.connect("cladmin@JRMSPRODDB1:3306");
+
+3)# MySQL  JRMSPRODDB3:3306 ssl  JS > cluster=dba.getCluster()
+
+4)# MySQL  JRMSPRODDB3:3306 ssl  JS > cluster.status()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5)# To perform primary instance switchover, login to one of the database nodes as the clusteradmin user and specify the database node that you want to promote by using the setPrimaryInstance() function:
+
+#cluster.setPrimaryInstance("JRMSPRODDB2:3306");
+
+#cluster.setPrimaryInstance("JRMSPRODDB1:3306");
+
+
+#cluster=dba.getCluster()
+#cluster.status()
+#cluster.rejoinInstance("cladmin@JRMSPRODDB1:3306");
+

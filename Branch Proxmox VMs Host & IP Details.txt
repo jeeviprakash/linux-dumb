@@ -1,0 +1,419 @@
+# DELL iDRAC, Proxmox Host, APP and DB VM IPs
+
+#1 Mangesh Street
+192.168.18.145  msidrac
+192.168.18.146  mspro
+192.168.18.147  msdb
+192.168.18.148  msapp
+
+
+#2 Coats Road
+192.168.30.145 cridrac
+192.168.30.146 crpro 
+192.168.30.147 crdb 
+192.168.30.148 crapp 
+
+
+#3 Tirunelveli
+192.168.47.145 nelidrac
+192.168.47.146 nelpro
+192.168.47.147 neldb
+192.168.47.148 nelapp
+
+
+#4 Tiruvanamalai
+192.168.35.145 vanaidrac
+192.168.35.146 vanapro
+192.168.35.147 vanadb 
+192.168.35.148 vanaapp 
+
+#5 Tuticorin
+192.168.66.145 tutiidrac
+192.168.66.146 tutipro 
+192.168.66.147 tutidb 
+192.168.66.148 tutiapp 
+
+#6 Vellore
+192.168.67.145 velidrac
+192.168.67.146 velpro 
+192.168.67.147 veldb 
+192.168.67.148 velapp 
+
+#7 Hosur
+192.168.11.145 hosidrac
+192.168.11.146 hospro 
+192.168.11.147 hosdb 
+192.168.11.148 hosapp 
+
+#8 Kanchi
+192.168.41.145 kanidrac
+192.168.41.146 kanpro 
+192.168.41.147 kandb 
+192.168.41.148 kanapp 
+
+#9 Madurai
+192.168.17.145 madidrac
+192.168.17.146 madpro 
+192.168.17.147 maddb 
+192.168.17.148 madapp 
+
+#10 Malleswaram
+192.168.14.145 mallidrac
+192.168.14.146 mallpro 
+192.168.14.147 malldb 
+192.168.14.148 mallapp 
+
+#11 Bangalore RO
+192.168.14.135 bgidrac
+192.168.14.136 bgpro 
+192.168.14.137 bgdb 
+192.168.14.138 bgapp 
+
+#12 Vizag
+192.168.10.145 vizidrac
+192.168.10.146 vizpro 
+192.168.10.147 vizdb 
+192.168.10.148 vizapp 
+
+
+#13 Chandanagar	
+192.168.36.145 chanidrac
+192.168.36.146 chanpro 
+192.168.36.147 chandb 
+192.168.36.148 chanapp 
+
+#14 Gajuwaka	
+192.168.31.145 gajuidrac
+192.168.31.146 gajupro 
+192.168.31.147 gajudb 
+192.168.31.148 gajuapp 
+ 
+#15 Kumbakonnam
+192.168.23.145 kumidrac
+192.168.23.146 kumpro 
+192.168.23.147 kumdb 
+192.168.23.148 kumapp 
+
+#16 Nanganallur
+192.168.44.145 nangidrac
+192.168.44.146 nangpro 
+192.168.44.147 nangdb 
+192.168.44.148 nangapp 
+
+#17 Marathalli
+192.168.40.145 maraidrac
+192.168.40.146 marapro 
+192.168.40.147 maradb 
+192.168.40.148 maraapp 
+
+#18 Kakinada
+192.168.65.145 kakiidrac
+192.168.65.146 kakipro 
+192.168.65.147 kakidb 
+192.168.65.148 kakiapp 
+
+#19 Valasaravakkam
+192.168.68.145 valaidrac
+192.168.68.146 valapro 
+192.168.68.147 valadb 
+192.168.68.148 valaapp 
+
+#20 Tanjore
+192.168.26.145 tanidrac
+192.168.26.146 tanpro 
+192.168.26.147 tandb 
+192.168.26.148 tanapp 
+
+#21 Velachery
+192.168.28.145 velaidrac
+192.168.28.146 velapro 
+192.168.28.147 veladb 
+192.168.28.148 velaapp 
+
+#22 AnnaNagar2
+192.168.62.145 ann2idrac
+192.168.62.146 ann2pro 
+192.168.62.147 ann2db 
+192.168.62.148 ann2app 
+
+#23 Kammanahalli
+192.168.43.145 kamidrac
+192.168.43.146 kampro    
+192.168.43.147 kamdb 
+192.168.43.148 kamapp
+
+#24 Adyar
+192.168.27.145 adyidrac
+192.168.27.146 adypro    
+192.168.27.147 adydb 
+192.168.27.148 adyapp
+
+#25 AnnaNagar1
+192.168.4.145 ann1idrac
+192.168.4.146 ann1pro    
+192.168.4.147 ann1db 
+192.168.4.148 ann1app
+
+#26 OMR
+192.168.64.145 omridrac    
+192.168.64.146 omrpro    
+192.168.64.147 omrdb 
+192.168.64.148 omrapp
+
+#27 Virudhachalam
+192.168.24.145 viruidrac    
+192.168.24.146 virupro    
+192.168.24.147 virudb 
+192.168.24.148 viruapp
+
+#28 Kukatpalli
+192.168.25.145 kukidrac
+192.168.25.146 kukpro   
+192.168.25.147 kukdb 
+192.168.25.148 kukapp
+
+#29 Jayanagar
+192.168.7.145 jayaidrac
+192.168.7.146 jayapro   
+192.168.7.147 jayadb 
+192.168.7.148 jayaapp
+
+
+#30 Purasai
+192.168.8.145 puraidrac
+192.168.8.146 purapro   
+192.168.8.147 puradb 
+192.168.8.148 puraapp
+
+
+#31 Guntur
+192.168.29.145 gunidrac
+192.168.29.146 gunpro   
+192.168.29.147 gundb 
+192.168.29.148 gunapp
+
+
+#32 Cuddalore
+192.168.39.145 cudidrac
+192.168.39.146 cudpro   
+192.168.39.147 cuddb 
+192.168.39.148 cudapp
+
+
+#33 Poonamalle
+192.168.33.145 punidrac
+192.168.33.146 punpro   
+192.168.33.147 pundb 
+192.168.33.148 punapp
+
+#34 Arakkonam
+192.168.63.145 araidrac
+192.168.63.146 arapro   
+192.168.63.147 aradb 
+192.168.63.148 araapp
+
+#35 Hyderabad
+192.168.6.145 hydidrac
+192.168.6.146 hydpro   
+192.168.6.147 hyddb 
+192.168.6.148 hydapp
+
+#36 Perambur
+192.168.34.145 peraidrac
+192.168.34.146 perapro
+192.168.34.147 peradb
+192.168.34.148 peraapp
+
+#37 Avadi
+192.168.48.145 avaidrac
+192.168.48.146 avapro
+192.168.48.147 avadb
+192.168.48.148 avaapp
+
+#38 Ponidcherry
+192.168.21.145 ponidrac
+192.168.21.146 ponpro
+192.168.21.147 pondb
+192.168.21.148 ponapp
+
+
+#39 Redhills
+192.168.42.145 redidrac
+192.168.42.146 redpro
+192.168.42.147 reddb
+192.168.42.148 redapp
+
+#40 Tirupathi
+192.168.3.145 tiruidrac
+192.168.3.146 tirupro
+192.168.3.147 tirudb
+192.168.3.148 tiruapp
+
+#41 Villupuram
+192.168.69.145 vilidrac
+192.168.69.146 vilpro
+192.168.69.147 vildb
+192.168.69.148 vilapp
+
+#42 Dharmapuri 
+192.168.37.145 dharidrac
+192.168.37.146 dharpro
+192.168.37.147 dhardb
+192.168.37.148 dharapp
+
+#43 Trichy
+192.168.15.145 triidrac
+192.168.15.146 tripro
+192.168.15.147 tridb
+192.168.15.148 triapp
+
+#44 SMJ
+192.168.59.145 smjidrac
+192.168.59.146 smjpro
+192.168.59.147 smjdb
+192.168.59.148 smjapp
+
+#45 Salem
+192.168.45.145 salidrac
+192.168.45.146 salpro
+192.168.45.147 saldb
+192.168.45.148 salapp
+
+#46 Mayavaram
+192.168.32.145 mayaidrac
+192.168.32.146 mayapro
+192.168.32.147 mayadb
+192.168.32.148 mayaapp
+
+#47 Erod
+192.168.38.145 erodidrac
+192.168.38.146 erodpro
+192.168.38.147 eroddb
+192.168.38.148 erodapp
+
+#48 Thatchur
+192.168.22.145 thatidrac
+192.168.22.146 thatpro
+192.168.22.147 thatdb
+192.168.22.148 thatapp
+
+#49 Royapuram
+192.168.16.145 royidrac
+192.168.16.146 roypro
+192.168.16.147 roydb
+192.168.16.148 royapp
+
+#50 Tiruvallur
+192.168.13.145 valluridrac
+192.168.13.146 vallurpro
+192.168.13.147 vallurdb
+192.168.13.148 vallurapp
+
+#51 Usman Road
+192.168.1.145 usmanidrac
+192.168.1.146 usmanpro
+192.168.1.147 usmandb
+192.168.1.148 usmanapp
+
+#52 Tambaram
+192.168.5.145 tamidrac
+192.168.5.146 tampro
+192.168.5.147 tamdb
+192.168.5.148 tamapp
+
+#53 Chengalpet
+192.168.46.145 chengidrac
+192.168.46.146 chengpro
+192.168.46.147 chengdb
+192.168.46.148 chengapp
+
+#54 Kovai
+192.168.61.145 kovaiidrac
+192.168.61.146 kovaipro
+192.168.61.147 kovaidb
+192.168.61.148 kovaiapp
+
+#55 Kovai-RO
+192.168.61.135 kovairoidrac
+192.168.61.136 kovairopro
+192.168.61.137 kovairodb
+192.168.61.138 kovairoapp
+
+#56 Kolkata-RO
+192.168.60.35 kolroidrac
+192.168.60.36 kolropro
+192.168.60.37 kolrodb
+192.168.60.38 kolroapp
+
+#57 RR Nagar
+192.168.70.145 rrnagaridrac
+192.168.70.146 rrnagarpro
+192.168.70.147 rrnagardb
+192.168.70.148 rrnagarapp
+
+#58 KR Puram
+192.168.71.145 krpuramidrac
+192.168.71.146 krpurampro
+192.168.71.147 krpuramdb
+192.168.71.148 krpuramapp
+
+
+# Branch Testing VMs
+192.168.18.149  mstest
+192.168.30.149 crtest 
+192.168.47.149 neltest
+192.168.35.149 vanatest 
+192.168.66.149 tutitest 
+192.168.67.149 veltest 
+192.168.11.149 hostest 
+192.168.41.149 kantest 
+192.168.17.149 madtest 
+192.168.14.149 malltest 
+192.168.14.139 bgtest 
+192.168.10.149 viztest 
+192.168.36.149 chantest 
+192.168.31.149 gajutest 
+192.168.23.149 kumtest 
+192.168.44.149 nangtest 
+192.168.40.149 maratest 
+192.168.65.149 kakitest 
+192.168.68.149 valatest 
+192.168.26.149 tantest 
+192.168.28.149 velatest 
+192.168.62.149 ann2test 
+192.168.43.149 kamtest
+192.168.27.149 adytest
+192.168.4.149 ann1test
+192.168.64.149 omrtest
+192.168.24.149 virutest
+192.168.25.149 kuktest
+192.168.7.149 jayatest
+192.168.8.149 puratest
+192.168.29.149 guntest
+192.168.39.149 cudtest
+192.168.33.149 puntest
+192.168.63.149 aratest
+192.168.6.149 	hydtest
+192.168.34.149 peratest
+192.168.48.149 avatest
+192.168.21.149 pontest
+192.168.42.149 redtest
+192.168.3.149 tirutest
+192.168.69.149 viltest
+192.168.37.149 dhartest
+192.168.15.149 tritest
+192.168.59.149 smjtest
+192.168.45.149 saltest
+192.168.32.149 mayatest
+192.168.38.149 erodtest
+192.168.22.149 thattest
+192.168.16.149 roytest
+192.168.13.149 vallurtest
+192.168.1.149 usmantest
+192.168.5.149 tamtest
+192.168.46.149 chengtest
+192.168.61.149 kovaitest
+192.168.61.139 kovairotest
+192.168.70.149 rrnagartest
+192.168.71.149 krpuramtest
+

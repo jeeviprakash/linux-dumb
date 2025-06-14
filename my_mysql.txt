@@ -1,0 +1,82 @@
+how to mysql create mysql user
+-------------------------------
+#sudo apt install mysql-server
+#sudo systemctl start mysql
+sudo systemctl status mysql
+#sudo mysql_secure_installation
+#sudo mysql -u root -p
+#show databases;
+#CREATE DATABASE aspvd;
+#CREATE USER 'jilaba'@'localhost' IDENTIFIED BY 'Jilaba@123';
+#GRANT ALL PRIVILEGES ON aspvd.* TO 'jilaba'@'localhost';
+#FLUSH PRIVILEGES;
+
+
+#create databases aspvd;
+
+> CREATE TABLE emp_details(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    last_name VARCHAR(100),
+    first_name VARCHAR(100),
+    address VARCHAR(255),
+    city VARCHAR(100)
+) ENGINE=InnoDB;
+
+> INSERT INTO emp_details (last_name, first_name, address, city)
+VALUES ('Doe', 'John', '123 Main St', 'Anytown');
+
+> SELECT * FROM emp_details;
+
+
+mysql> select * from details;
++----+------------+-----------+------------+-----------+
+| id | first_name | last_name | address    | city      |
++----+------------+-----------+------------+-----------+
+|  1 | Done       | John      |  1  M ain St | Anytown |
++----+------------+-----------+------------+-----------+
+
+
+
+mysql user name password  mysql version 8.0.37 
+-------------------------
+
+username           password
+
+root               Mysql@321
+
+jilaba             Jilba@321
+
+ituser             itteam
+---------------------------
+
+mysql user,databases,table create cmd
+-------------------------------------
+
+
+#create user 'jilaba'@'%' identified by 'Jilaba@123';
+#grant all privileges on *.* to 'Jilaba'@'%';
+#flush privileges;
+##DROP USER IF EXISTS 'jilaba'@'localhost';                     (delete cmd)
+#sudo mysql -u jilaba -p
+#SELECT user, host FROM mysql.user;
+#create database emp;
+CREATE TABLE emp_INFO (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(100),
+    last_name VARCHAR(100),
+    address VARCHAR(255),
+    email VARCHAR(255),
+    city VARCHAR(255)
+) ENGINE=InnoDB;
+
+INSERT INTO emp_INFO (first_name, last_name, address, email, city)
+VALUES ('John', 'Doe', '123 Main St, Chennai', 'jpdh@email', 'Chennai');
+
+SELECT * FROM emp_INFO;
++----+------------+-----------+----------------------+---------------+---------+
+| id | first_name | last_name | address              | email         | city    |
++----+------------+-----------+----------------------+---------------+---------+
+|  1 | John       | Doe       | 123 Main St, Chennai | jpdh@email    | Chennai |
+|  2 | leo        | Doss      | 123 Main St, Chennai | leodass@email | mumbai  |
++----+------------+-----------+----------------------+---------------+---------+
+2 rows in set (0.00 sec)

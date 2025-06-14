@@ -1,0 +1,17 @@
+webestimation pro 192.168.30.210 
+grtecommerce pro  192.168.0.88
+bareos            192.168.9.131
+osservermonitor   192.168.30.55 
+velappa           192.168.28.148 vellore
+kovaiapp          192.168.61.148 
+NTNX-IL012        10.10.0.12
+mobile            192.168.30.68
+venconnectapp     192.168.30.167
+proddb            192.168.30.62
+prodapp3          192.168.30.84
+smjapp            192.168.59.148
+ecommerce         192.168.30.133
+vouchagram        192.168.30.125
+uatapp            192.168.30.85
+payzapp1          192.168.30.156
+digipay           192.168.30.155

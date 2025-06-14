@@ -1,0 +1,39 @@
+192.168.98.73	IBM Server  checked
+192.168.98.78   sap server log cleared
+10.10.0.36		IBM Dr IVM Checked
+10.10.0.36		IBM Dr IVM Checked
+192.168.30.99   Nutanix web console checked
+192.168.30.101 	Nutanix web console checked
+10.10.0.44	 	DR Nutanix web console checked
+10.10.0.101		DR Nutanix web console checked
+192.168.98.60	SAP Storeage server checked 
+192.168.0.33	Live server checked
+192.168.19.33	virtual Machines checked
+192.168.9.150	zabbix monitoring checked			
+192.168.19.21   Bareos backup checked
+192.168.9.153	User UrBackup Checked
+192.168.0.124	Branch UrBackup Checked
+192.168.210.109 RAR UrBackup Checked
+
+
+192.168.30.63   DEVAPP1 server restarted
+192.168.30.85   uatapp	server restarted
+192.168.30.79   qcapp 	server restarted
+192.168.30.151  jrmsftp	server restarted
+
+192.168.30.65   uatdb  server restarted
+192.168.30.73   devdb  server restarted
+192.168.30.139  testdb server restarted
+192.168.30.69   qcdb   server restarted
+
+		
+				
+192.168.13.56   jilaba printer plugin installed 
+192.168.11.17	jilaba printer plugin installed
+192.168.74.53	jilaba printer plugin installed
+192.168.15.45	jilaba printer plugin installed
+192.168.5.19	jilaba printer plugin installed
+192.168.68.51 	jilaba printer plugin installed
+192.168.216.180	jilaba printer plugin installed
+192.168.216.223	jilaba printer plugin installed
+192.168.216.173 jilaba printer plugin installed

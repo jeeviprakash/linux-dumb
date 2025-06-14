@@ -1,0 +1,16 @@
+------samba---------------
+
+#sudo apt install samba -y
+#sudo useradd aspvd
+#sudo smbpasswd -a aspvd
+#cat /etc/samba/smb.conf
+[sambashare]
+  comment = Samba on Ubuntu
+  path = /home/aspvd/sambashare
+  read only = no
+  browsable = yes
+#mkdir -p /home/aspvd/sambashare
+#sudo chown -R aspvd:aspvd /home/aspvd/sambashare
+#sudo chmod -R 777 /home/aspvd/sambashare
+#sudo systemctl restart smbd nmbd
+#sudo systemctl status smbd nmbd
